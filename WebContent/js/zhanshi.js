@@ -515,7 +515,7 @@ function putnewsInfo(newsInfo){
 			picture="timg[1].jpg";
 		}
 		str+='<li> <a href="'+newsInfo[i].newsLink+'"><img src="/exhibitionsystem/productionManagement/productionManagement_IoReadImage?fileFileName='+picture+'"   width="90" height="90" alt="'+title+'"/></a>'+
-        '<div class="newslist"> <a href="'+newsInfo[i].newsLink+'" title="'+title+'">'+title+'</a> <span>UPTATED:'+newsInfo[i].newsCreationtime+'</span>'+
+        '<div class="newslist" style="margin-left:100px"> <a href="'+newsInfo[i].newsLink+'" title="'+title+'">'+title+'</a> <span>UPTATED:'+newsInfo[i].newsCreationtime+'</span>'+
           '<p>'+introduction+'</p>'+
         '</div>'+
       '</li>';
