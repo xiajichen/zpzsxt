@@ -52,7 +52,7 @@ header nav li span{display:block;color:#999;font-size:11px;-webkit-text-size-adj
 /*cases*/
 #ruifoxHome .cat_title{overflow:hidden;height:64px;padding:35px 0;background:none;border:none;}
 #ruifoxHome .cat_title p,#ruifoxHome .cat_title h2{margin-top:0;}
-#cases ul{display:block;font-size:0;letter-spacing:-6px;text-align:center;width:100%;height:462px;}
+#cases ul{display:block;font-size:0;letter-spacing:-6px;text-align:center;width:100%;height:400px;}
 #cases ul li{display:inline-block;zoom:1;*display:inline;vertical-align:top;position:relative;width:240px;height:152px;overflow:hidden;margin:2px 0 0 2px;letter-spacing:normal;}
 #cases ul li img{position:absolute;top:0;left:0;width:240px;height:152px}
 #cases ul li p{display:none;width:210px;height:100%;position:absolute;z-index:1;font-size:12px;text-align:left;padding:0 15px;background:#212121;color:#999;left:0;bottom:0;}
@@ -72,11 +72,11 @@ header nav li span{display:block;color:#999;font-size:11px;-webkit-text-size-adj
 #client ul li.noborder{border-right:none;}
 /*news*/
 #news{height:670px;background:#DBDBDB}
-#news .newsdata{background:#fff;width:986px;height:520px;margin:0 auto;position:relative;}
-#news .newsad{position:absolute;top:15px;left:15px;}
-#news ul{position:absolute;width:620px;top:15px;right:15px;}
+#news .newsdata{background:#fff;width:1210px;height:520px;margin:0 auto;position:relative;}
+#news .newsad{position:absolute;width:600px}
+#news ul{position:absolute;width:597px;top:10px;right:0px;}
 #news ul li{position:relative;border-bottom:1px dotted #ccc;padding:12px 0;}
-#news ul li .newslist{position:absolute;width:510px;right:0;top:10px;}
+#news ul li .newslist{position:absolute;width:510;right:0;top:10px;}
 #news ul li .newslist a{font:bold 16px/30px Microsoft YaHei;color:#444;}
 #news ul li .newslist span{display:block;line-height:20px;color:#999;}
 /*footer*/
@@ -102,7 +102,7 @@ footer{clear:both;}
 .links ul li{ float:left; margin-right:10px}
 .links ul li a{ color:#444444}
 /*SubPage Caseslist*/
-#cases {width:100%;height:598px;position:relative;overflow:hidden;}
+#cases {width:100%;height:500px;position:relative;overflow:hidden;}
 #case_search,#news_search{position:absolute;right:0;top:85px;height:29px;vertical-align:middle;}
 #case_search #keywords,#news_search #keywords{width:220px;vertical-align:middle;}
 #case_search #submit,#news_search #submit{width:80px;height:27px;font-size:13px;font-weight:bold;padding:1px 8px;vertical-align:middle;}
