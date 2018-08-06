@@ -476,7 +476,6 @@ function show_ten(prinfo) {
 }
 //获取最新资讯
 function getNewsInfo(){
-	console.log("走了这里？")
 	jQuery.ajax({
 		url : "/exhibitionsystem/news/news_getNewsInfo",		//数据传输的目的地址，将在这里对前台数据进行操作
 		type : "post",
