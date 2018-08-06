@@ -476,7 +476,6 @@ function show_ten(prinfo) {
 }
 //获取最新资讯
 function getNewsInfo(){
-	console.log("走了这里？")
 	jQuery.ajax({
 		url : "/exhibitionsystem/news/news_getNewsInfo",		//数据传输的目的地址，将在这里对前台数据进行操作
 		type : "post",
@@ -515,7 +514,7 @@ function putnewsInfo(newsInfo){
 			picture="timg[1].jpg";
 		}
 		str+='<li> <a href="'+newsInfo[i].newsLink+'"><img src="/exhibitionsystem/productionManagement/productionManagement_IoReadImage?fileFileName='+picture+'"   width="90" height="90" alt="'+title+'"/></a>'+
-        '<div class="newslist"> <a href="'+newsInfo[i].newsLink+'" title="'+title+'">'+title+'</a> <span>UPTATED:'+newsInfo[i].newsCreationtime+'</span>'+
+        '<div class="newslist" style="margin-left:100px"> <a href="'+newsInfo[i].newsLink+'" title="'+title+'">'+title+'</a> <span>UPTATED:'+newsInfo[i].newsCreationtime+'</span>'+
           '<p>'+introduction+'</p>'+
         '</div>'+
       '</li>';
