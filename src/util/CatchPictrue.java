@@ -49,8 +49,8 @@ public class CatchPictrue {
 	           }
 	     }
 	     String picUrl = links.get(0);
-	     if(links.size()>3) {
-	    	 picUrl = links.get(2);
+	     if(links.size()>2) {
+	    	 picUrl = links.get(1);
 	     }
 	     	//new一个URL对象  
 	        URL url = new URL(picUrl);  
