@@ -89,7 +89,7 @@ function show_six(dto6){
 		pr_createtime[i] = document.querySelectorAll(".meta__date")[i] 
 		pr_description[i] = document.querySelectorAll(".pr_description")[i] 
 		pr_img[i] = document.querySelectorAll(".ppap")[i];
-//		pr_img[i].setAttribute("preserveAspectRatio","none"); 
+		pr_img[i].setAttribute("preserveAspectRatio","none"); 
 		pr_name[i].innerHTML=str1[i];
 		pr_type[i].innerHTML=str2[i];
 		pr_author[i].innerHTML=str3[i];

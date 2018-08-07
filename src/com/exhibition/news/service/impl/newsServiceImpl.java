@@ -128,7 +128,7 @@ public class newsServiceImpl implements newsService{
 					//压缩图片
 					ImgCompress imgCom = new ImgCompress("C:\\img\\"+picname);
 					imgCom.setPictrueName(littlePic);
-					imgCom.resizeFix(90, 90);
+					imgCom.resizeFix(180, 180);
 					oneNew.setPicture(littlePic);
 				} catch (Exception e) {
 					// TODO Auto-generated catch block
