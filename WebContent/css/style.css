@@ -72,7 +72,7 @@ header nav li span{display:block;color:#999;font-size:11px;-webkit-text-size-adj
 #client ul li.noborder{border-right:none;}
 /*news*/
 #news{height:670px;background:#DBDBDB}
-#news .newsdata{background:#fff;width:1210px;height:520px;margin:0 auto;position:relative;}
+#news .newsdata{background:#fff;width:1190px;height:520px;margin:0 auto;position:relative;}
 #news .newsad{position:absolute;width:600px}
 #news ul{position:absolute;width:597px;top:10px;right:0px;}
 #news ul li{position:relative;border-bottom:1px dotted #ccc;padding:12px 0;}
