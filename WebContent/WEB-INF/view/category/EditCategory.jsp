@@ -50,7 +50,7 @@
 <!-- ================================控制首页轮播图模块上传==================================== -->
 <!-- ===========轮播背景图上传======= -->
 <div class="layui-upload" style="margin-left:40px;">
-<div id="upload1" >
+<div id="upload1" style="background-color:#C0C0C0;" >
   <button type="button" class="layui-btn" onclick="file1.click()">点击修改轮播背景图</button>
   <input type="file" class="file" id="file1" name="file1" style="display:none"/><br/>
   <div class="layui-upload-list">
@@ -63,7 +63,7 @@
 
 <!-- ===========分类LOGO图上传======= -->
 <div id="upload2-3">
-<div id="upload2" >
+<div id="upload2" style="background-color:#C0C0C0;">
   <button type="button" class="layui-btn" onclick="file2.click()">点击修改分类LOGO图</button>
   <input type="file" class="file" id="file2" name="file2" style="display:none"/><br/>
   <div class="layui-upload-list">
@@ -75,7 +75,7 @@
 </div>
 
 <!-- ==========作品代表图上传======= -->
-<div id="upload3">
+<div id="upload3" style="background-color:#C0C0C0;">
   <button type="button" class="layui-btn" onclick="file3.click()">点击修改作品代表图</button>
   <input type="file" class="file" id="file3" name="file3" style="display:none"/><br/>
   <div class="layui-upload-list">

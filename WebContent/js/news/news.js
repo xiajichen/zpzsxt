@@ -151,7 +151,7 @@ function batchDeleteNews(vals){
 					success:function(result){
 						var deleteResult = JSON.parse(result);
 						if(deleteResult=="deleteSuccess"){
-							toastr.success("作删除成功!");
+							toastr.success("删除成功!");
 							setTimeout(function(){
 								location.href="http://localhost:8080/exhibitionsystem/skip/skip_intoNewsList";
 							},1000);
